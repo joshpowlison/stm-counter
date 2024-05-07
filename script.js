@@ -23,6 +23,7 @@ async function setCounter(name, event)
 }
 
 async function addToCounter(name, event)
+{
 	if (isNaN(event.value))
 		return;
 
@@ -32,6 +33,7 @@ async function addToCounter(name, event)
 }
 
 async function subtractFromCounter(name, event)
+{
 	if (isNaN(event.value))
 		return;
 
@@ -41,6 +43,7 @@ async function subtractFromCounter(name, event)
 }
 
 async function deleteCounter(name, event)
+{
 	for (var i = 0, l = counters.length; i < l; i++) {
 		// Remove the element and remove the counter
 		// from the list
