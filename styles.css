@@ -1,0 +1,29 @@
+body
+{
+	margin:0;
+	padding:0;
+	font-family:'BentonSans';
+}
+
+#container{
+	background-color: rgba(0, 0, 0, 0.62);
+	color:white;
+}
+
+.counter
+{
+	font-size:2em;
+
+	margin:0.125em;
+	padding:0;
+	
+	float:right;
+}
+
+p
+{
+	padding:0.125em;
+	margin:0;
+	
+	text-align:right;
+}
