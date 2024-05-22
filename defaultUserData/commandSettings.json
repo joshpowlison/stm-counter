@@ -1,0 +1,24 @@
+{
+	"commands": [
+		{
+			"name": "Counter.Set",
+			"accessMask": 0,
+			"function": "setCounter"
+		},
+		{
+			"name": "Counter.Add",
+			"accessMask": 0,
+			"function": "addToCounter"
+		},
+		{
+			"name": "Counter.Subtract",
+			"accessMask": 0,
+			"function": "subtractFromCounter"
+		},
+		{
+			"name": "Counter.Delete",
+			"accessMask": 0,
+			"function": "deleteCounter"
+		}
+	]
+}

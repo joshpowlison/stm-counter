@@ -1,33 +1,4 @@
 {
 	"name": "Counter",
-	"version": 2,
-	"coreFiles": [
-		"info.json",
-		"browser-source.html",
-		"script.js",
-		"styles.css"
-	],
-	"defaultFiles": [],
-	"commands": [
-		{
-			"name": "Counter.Set",
-			"accessMask": 0,
-			"function": "setCounter"
-		},
-		{
-			"name": "Counter.Add",
-			"accessMask": 0,
-			"function": "addToCounter"
-		},
-		{
-			"name": "Counter.Subtract",
-			"accessMask": 0,
-			"function": "subtractFromCounter"
-		},
-		{
-			"name": "Counter.Delete",
-			"accessMask": 0,
-			"function": "deleteCounter"
-		}
-	]
+	"version": 2
 }
