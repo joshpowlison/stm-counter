@@ -1,4 +1,8 @@
 {
+	"guid": "7DD960A4-8826-0A80-FAB8-2EAC19B33082",
 	"name": "Counter",
-	"version": 2
+	"type": 0,
+	"isPublic": 0,
+	"version": 2,
+	"lastUpdateDate": "2024-05-29 17:31:40"
 }

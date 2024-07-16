@@ -5,14 +5,14 @@ const moduleFunctions = {
 	"deleteCounter": deleteCounter,
 };
 
-Module.LoadModule(moduleFunctions);
+module.addActions(moduleFunctions);
 
 const name = 'Counter';
 const container = document.getElementById("container");
 
 var counters = [];
 
-async function setCounter(name, event)
+async function setCounter(event)
 {
 	var value = event.value;
 
@@ -22,7 +22,7 @@ async function setCounter(name, event)
 	setCounter(event.name, value);
 }
 
-async function addToCounter(name, event)
+async function addToCounter(event)
 {
 	if (isNaN(event.value))
 		return;
@@ -32,7 +32,7 @@ async function addToCounter(name, event)
 	setCounter(counter, value);
 }
 
-async function subtractFromCounter(name, event)
+async function subtractFromCounter(event)
 {
 	if (isNaN(event.value))
 		return;
@@ -42,7 +42,7 @@ async function subtractFromCounter(name, event)
 	setCounter(counter, value);
 }
 
-async function deleteCounter(name, event)
+async function deleteCounter(event)
 {
 	for (var i = 0, l = counters.length; i < l; i++) {
 		// Remove the element and remove the counter
